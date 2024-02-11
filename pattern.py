@@ -12,7 +12,7 @@ def print_hexagon(rows, cols):
             print(bottom_row)
 
 # user input for rows and columns
-rows, cols = map(int, input("Input:- ").split())
+rows, cols = map(int, input("Inputs:- ").split())
 
 # Function calling
 print_hexagon(rows, cols)
